@@ -27,3 +27,5 @@ function monkeyCount(n) {
 ### Education
 * 2016-2018 Belarusian State Medical College
 ***
+#### English
+English level A1 - A2
