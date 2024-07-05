@@ -17,11 +17,15 @@ My goal is to again knowledge and become a junior in order to understand the dep
 ***
 #### Code examples:
 ```
-function monkeyCount(n) {
- let result =[]
-    for (let i=1; i<=n; i++) result.push(i)
-  return result
-}
+const headerMenuMob = document.querySelector('.burger-menu');
+const burgerBtn = document.querySelector('.burger__button-mob');
+const burgerBtnClose = document.querySelector('.close-menu-btn');
+  burgerBtn.onclick = () => {
+    headerMenuMob.classList.toggle('active')
+  }
+  burgerBtnClose.onclick = () => {
+    headerMenuMob.classList.toggle('active')
+  }
 ```
 ***
 ### Education
