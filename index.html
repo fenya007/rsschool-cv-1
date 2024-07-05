@@ -103,15 +103,16 @@
                 </strong>
             </h2>
             <code class="code-text">
-            <pre>
-                function monkeyCount(n) {
-                let result =[]
-                for (let i=1; i<=n; i++) result.push(i)
-                return result
+                const headerMenuMob = document.querySelector('.burger-menu');
+                const burgerBtn = document.querySelector('.burger__button-mob');
+                const burgerBtnClose = document.querySelector('.close-menu-btn');
+                burgerBtn.onclick = () => {
+                    headerMenuMob.classList.toggle('active')
                 }
-            </pre>
-            
-        </code>
+                burgerBtnClose.onclick = () => {
+                    headerMenuMob.classList.toggle('active')
+                }
+            </code>
         </div>
     </section>
     <!-- Education -->
